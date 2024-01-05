@@ -1,0 +1,32 @@
+
+var a=11 ;
+var b=5;
+var c=a % b;
+//in this functions only checks if c therefore its incorect if you try other numbers eg b,c,a1
+function isEven (){ 
+    if (c == 0){
+        return true +" "+"c is even" ;
+    }
+    else {
+        return false +" "+ "c is odd";
+    }
+    
+}
+console.log(isEven(c)); 
+
+
+// more advanced can check if any number is even 
+var a1=15 ;
+var b1=5;
+var c1=a1 % b1;
+
+function isEven1 (num){
+    if (num %2 == 0){
+        return true +" "+"the number" +" "+ num + " "+"is even";
+    }
+    else {
+        return false +" "+"the number" +" "+ num +" "+ "is odd";
+    }
+    
+}
+console.log(isEven1(a));
